@@ -966,6 +966,7 @@ static bool conv_write(struct nvmev_ns *ns, struct nvmev_request *req, struct nv
 
 	nsecs_latest =
 		ssd_advance_write_buffer(conv_ftl->ssd, req->nsecs_start, LBA_TO_BYTE(nr_lba));
+	swr.wbuf_finish_time = nsecs_latest;
 	nsecs_xfer_completed = nsecs_latest;
 
 	swr.stime = nsecs_latest;

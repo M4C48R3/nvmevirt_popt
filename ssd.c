@@ -29,6 +29,7 @@ uint32_t buffer_allocate(struct buffer *buf, size_t size)
 	}
 
 	buf->remaining -= size;
+	NVMEV_DEBUG("buffer_allocate: size %lu, remaining %lu\n", size, buf->remaining);
 
 	spin_unlock(&buf->lock);
 	return size;
@@ -162,11 +163,11 @@ void ssd_init_params(struct ssdparams *spp, uint64_t capacity, uint32_t nparts)
 		     spp->secsz * spp->secs_per_pg;
 	blk_size = spp->pgs_per_blk * spp->secsz * spp->secs_per_pg;
 	NVMEV_INFO(
-		"Total Capacity(GiB,MiB)=%llu,%llu chs=%u luns=%lu lines=%lu blk-size(MiB,KiB)=%u,%u line-size(MiB,KiB)=%lu,%lu",
+		"Total Capacity(GiB,MiB)=%llu,%llu chs=%u luns=%lu lines=%lu blk-size(MiB,KiB)=%u,%u line-size(MiB,KiB)=%lu,%lu, total pages = %lu",
 		BYTE_TO_GB(total_size), BYTE_TO_MB(total_size), spp->nchs, spp->tt_luns,
 		spp->tt_lines, BYTE_TO_MB(spp->pgs_per_blk * spp->pgsz),
 		BYTE_TO_KB(spp->pgs_per_blk * spp->pgsz), BYTE_TO_MB(spp->pgs_per_line * spp->pgsz),
-		BYTE_TO_KB(spp->pgs_per_line * spp->pgsz));
+		BYTE_TO_KB(spp->pgs_per_line * spp->pgsz), spp->tt_pgs);
 }
 
 static void ssd_init_nand_page(struct nand_page *pg, struct ssdparams *spp)
@@ -238,6 +239,16 @@ static void ssd_init_nand_lun(struct nand_lun *lun, struct ssdparams *spp)
 		ssd_init_nand_plane(&lun->pl[i], spp);
 	}
 	lun->next_lun_avail_time = 0;
+	lun->next_write_finish_time = 0;
+	#ifdef READ_SLOWDOWN_WHILE_WRITE
+	if (!(READ_SLOWDOWN_WHILE_WRITE)){
+		NVMEV_ERROR("READ_SLOWDOWN_WHILE_WRITE should not be zero");
+	}
+	lun->read_slowdown_factor = READ_SLOWDOWN_WHILE_WRITE;
+	#endif
+	#ifndef READ_SLOWDOWN_WHILE_WRITE
+	lun->read_slowdown_factor = 999; /* read is blocked (slowed down 999x) while write is ongoing */
+	#endif
 	lun->busy = false;
 }
 
@@ -425,6 +436,9 @@ uint64_t ssd_advance_nand(struct ssd *ssd, struct nand_cmd *ncmd)
 		nand_stime = chnl_etime;
 		nand_etime = nand_stime + spp->pg_wr_lat;
 		lun->next_lun_avail_time = nand_etime;
+		#if (SUPPORTED_SSD_TYPE(CONV))
+		if(ncmd->type == USER_IO) lun->next_write_finish_time = ncmd->wbuf_finish_time; // write buffer only involved for user I/O (not GC)
+		#endif
 		completed_time = nand_etime;
 		break;
 

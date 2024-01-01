@@ -1,0 +1,1489 @@
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+Iteration No: 1 started. Evaluating function at random point.
+Iteration No: 1 ended. Evaluation done at random point.
+Time taken: 0.8479
+Function value obtained: 0.4220
+Current minimum: 0.2734
+Iteration No: 2 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 985 3400 56331 42354 3700000 50000 35949 20000 100 143 6765"
+Iteration No: 2 ended. Evaluation done at random point.
+Time taken: 160.3090
+Function value obtained: 0.4774
+Current minimum: 0.2734
+Iteration No: 3 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 1100 3400 30000 85998 3700000 38317 17084 11146 100 2403 15960"
+Iteration No: 3 ended. Evaluation done at random point.
+Time taken: 160.0277
+Function value obtained: 0.3302
+Current minimum: 0.2734
+Iteration No: 4 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 114098 30000 3700000 5000 45605 20000 100 2982 9290"
+Iteration No: 4 ended. Evaluation done at random point.
+Time taken: 171.2613
+Function value obtained: 0.4082
+Current minimum: 0.2734
+Iteration No: 5 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 778 3400 86451 60991 3700000 5000 45481 20000 100 523 8458"
+Iteration No: 5 ended. Evaluation done at random point.
+Time taken: 170.5470
+Function value obtained: 0.3814
+Current minimum: 0.2734
+Iteration No: 6 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 30000 78168 3700000 14895 20115 5000 100 2967 10643"
+Iteration No: 6 ended. Evaluation done at random point.
+Time taken: 157.2721
+Function value obtained: 0.4714
+Current minimum: 0.2734
+Iteration No: 7 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 59667 67045 3700000 50000 35469 20000 239 1124 4196"
+Iteration No: 7 ended. Evaluation done at random point.
+Time taken: 179.5028
+Function value obtained: 0.3503
+Current minimum: 0.2734
+Iteration No: 8 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 1100 3400 40545 67368 3700000 50000 5000 20000 100 3000 10541"
+Iteration No: 8 ended. Evaluation done at random point.
+Time taken: 167.1882
+Function value obtained: 0.3908
+Current minimum: 0.2734
+Iteration No: 9 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 1100 3400 30000 58468 3700000 50000 12292 20000 1000 53 14242"
+Iteration No: 9 ended. Evaluation done at random point.
+Time taken: 162.3794
+Function value obtained: 0.5008
+Current minimum: 0.2734
+Iteration No: 10 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 109966 68853 3700000 50000 16235 20000 327 392 11223"
+Iteration No: 10 ended. Evaluation done at random point.
+Time taken: 171.8500
+Function value obtained: 0.6474
+Current minimum: 0.2734
+Iteration No: 11 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 65159 69020 3700000 15761 19464 20000 100 3000 5666"
+Iteration No: 11 ended. Evaluation done at random point.
+Time taken: 177.9886
+Function value obtained: 0.3112
+Current minimum: 0.2734
+Iteration No: 12 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 30000 60503 3700000 50000 50000 5000 100 1463 4722"
+Iteration No: 12 ended. Evaluation done at random point.
+Time taken: 157.6478
+Function value obtained: 0.4013
+Current minimum: 0.2734
+Iteration No: 13 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 1100 3400 72042 59455 3700000 5000 5000 20000 1000 1240 5359"
+Iteration No: 13 ended. Evaluation done at random point.
+Time taken: 164.1576
+Function value obtained: 0.4982
+Current minimum: 0.2734
+Iteration No: 14 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 1100 3400 55527 86531 3700000 27579 31168 20000 100 824 16384"
+Iteration No: 14 ended. Evaluation done at random point.
+Time taken: 172.8678
+Function value obtained: 0.3882
+Current minimum: 0.2734
+Iteration No: 15 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 1100 3400 75829 65476 3700000 5000 8744 5000 100 2044 13152"
+Iteration No: 15 ended. Evaluation done at random point.
+Time taken: 142.1533
+Function value obtained: 0.5033
+Current minimum: 0.2734
+Iteration No: 16 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 30000 80455 3700000 15158 50000 20000 100 0 5822"
+Iteration No: 16 ended. Evaluation done at random point.
+Time taken: 180.8595
+Function value obtained: 0.4536
+Current minimum: 0.2734
+Iteration No: 17 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 96824 30000 3700000 5000 50000 20000 100 1238 11066"
+Iteration No: 17 ended. Evaluation done at random point.
+Time taken: 168.0482
+Function value obtained: 0.3908
+Current minimum: 0.2734
+Iteration No: 18 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 65999 63791 3700000 14793 49854 20000 100 2288 7233"
+Iteration No: 18 ended. Evaluation done at random point.
+Time taken: 180.1543
+Function value obtained: 0.3673
+Current minimum: 0.2734
+Iteration No: 19 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 52888 64756 3700000 50000 50000 20000 100 2591 4251"
+Iteration No: 19 ended. Evaluation done at random point.
+Time taken: 184.3974
+Function value obtained: 0.3685
+Current minimum: 0.2734
+Iteration No: 20 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 1100 3400 30000 81289 3700000 43864 32247 20000 417 0 7988"
+Iteration No: 20 ended. Evaluation done at random point.
+Time taken: 171.3241
+Function value obtained: 0.4158
+Current minimum: 0.2734
+Iteration No: 21 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 707 3400 30000 30000 3700000 50000 50000 20000 100 0 11443"
+Iteration No: 21 ended. Evaluation done at random point.
+Time taken: 163.7244
+Function value obtained: 0.4226
+Current minimum: 0.2734
+Iteration No: 22 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 30000 67075 3700000 50000 50000 20000 100 1851 11280"
+Iteration No: 22 ended. Evaluation done at random point.
+Time taken: 179.6275
+Function value obtained: 0.3725
+Current minimum: 0.2734
+Iteration No: 23 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 30000 58229 3700000 50000 46726 12172 1000 3000 5001"
+Iteration No: 23 ended. Evaluation done at random point.
+Time taken: 172.7662
+Function value obtained: 0.2195
+Current minimum: 0.2195
+Iteration No: 24 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 41488 71207 3700000 50000 36154 13346 100 2644 4695"
+Iteration No: 24 ended. Evaluation done at random point.
+Time taken: 172.9844
+Function value obtained: 0.2421
+Current minimum: 0.2195
+Iteration No: 25 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 1100 3400 46399 100644 3700000 50000 5000 13872 1000 3000 5016"
+Iteration No: 25 ended. Evaluation done at random point.
+Time taken: 172.7445
+Function value obtained: 0.2099
+Current minimum: 0.2099
+Iteration No: 26 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 892 3400 30000 55545 3700000 50000 46359 11709 1000 3000 4676"
+Iteration No: 26 ended. Evaluation done at random point.
+Time taken: 166.6748
+Function value obtained: 0.1877
+Current minimum: 0.1877
+Iteration No: 27 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 47001 83756 3700000 50000 5000 14124 1000 3000 4988"
+Iteration No: 27 ended. Evaluation done at random point.
+Time taken: 175.1228
+Function value obtained: 0.1798
+Current minimum: 0.1798
+Iteration No: 28 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 42217 87260 3700000 50000 5000 5000 100 3000 16384"
+Iteration No: 28 ended. Evaluation done at random point.
+Time taken: 156.8777
+Function value obtained: 0.4535
+Current minimum: 0.1798
+Iteration No: 29 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 45407 90719 3700000 50000 5000 14936 100 3000 5620"
+Iteration No: 29 ended. Evaluation done at random point.
+Time taken: 174.5409
+Function value obtained: 0.2111
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt clean
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CLEAN   /home/blaze51/works/nvmevirt_popt/Module.symvers
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+rm -f cscope.out tags nvmev.S
+make -C /lib/modules/5.15.142/build M=/home/blaze51/works/nvmevirt_popt modules
+make[1]: Entering directory '/home/blaze51/.KERNEL/linux-5.15.142'
+  CC [M]  /home/blaze51/works/nvmevirt_popt/main.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pci.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/admin.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/io.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/dma.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/ssd.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/conv_ftl.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/pqueue/pqueue.o
+  CC [M]  /home/blaze51/works/nvmevirt_popt/channel_model.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.o
+  MODPOST /home/blaze51/works/nvmevirt_popt/Module.symvers
+  CC [M]  /home/blaze51/works/nvmevirt_popt/nvmev.mod.o
+  LD [M]  /home/blaze51/works/nvmevirt_popt/nvmev.ko
+  BTF [M] /home/blaze51/works/nvmevirt_popt/nvmev.ko
+make[1]: Leaving directory '/home/blaze51/.KERNEL/linux-5.15.142'
+Current minimum: 0.1798
+Iteration No: 30 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 802 3400 34385 83759 3700000 50000 5000 14770 1000 3000 4796"
+Iteration No: 30 ended. Evaluation done at random point.
+Time taken: 173.3154
+Function value obtained: 0.1712
+Current minimum: 0.1712
+Iteration No: 31 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 75252 80089 3700000 5000 5000 13243 1000 3000 5778"
+Iteration No: 31 ended. Evaluation done at random point.
+Time taken: 171.9934
+Function value obtained: 0.1928
+Current minimum: 0.1712
+Iteration No: 32 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 83195 78803 3700000 5000 5000 13826 100 3000 6698"
+Iteration No: 32 ended. Evaluation done at random point.
+Time taken: 168.2837
+Function value obtained: 0.2557
+Current minimum: 0.1712
+Iteration No: 33 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 43004 82722 3700000 33395 5000 14063 1000 3000 5148"
+Iteration No: 33 ended. Evaluation done at random point.
+Time taken: 175.3394
+Function value obtained: 0.1537
+Current minimum: 0.1537
+Iteration No: 34 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 49938 87138 3700000 23814 5000 14123 482 3000 5025"
+Iteration No: 34 ended. Evaluation done at random point.
+Time taken: 174.5912
+Function value obtained: 0.1496
+Current minimum: 0.1496
+Iteration No: 35 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 46821 93640 3700000 10218 5000 13830 1000 3000 5228"
+Iteration No: 35 ended. Evaluation done at random point.
+Time taken: 177.5622
+Function value obtained: 0.2473
+Current minimum: 0.1496
+Iteration No: 36 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 64613 83605 3700000 29138 5000 13581 1000 3000 4979"
+Iteration No: 36 ended. Evaluation done at random point.
+Time taken: 174.5384
+Function value obtained: 0.1552
+Current minimum: 0.1496
+Iteration No: 37 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 719 3400 53465 82448 3700000 32829 5000 13575 899 3000 5062"
+Iteration No: 37 ended. Evaluation done at random point.
+Time taken: 171.8985
+Function value obtained: 0.1290
+Current minimum: 0.1290
+Iteration No: 38 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 84898 30000 3700000 5000 50000 9674 1000 3000 6197"
+Iteration No: 38 ended. Evaluation done at random point.
+Time taken: 160.3987
+Function value obtained: 0.2475
+Current minimum: 0.1290
+Iteration No: 39 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 1100 3400 30000 30000 3700000 50000 50000 9306 1000 3000 5298"
+Iteration No: 39 ended. Evaluation done at random point.
+Time taken: 153.8289
+Function value obtained: 0.3157
+Current minimum: 0.1290
+Iteration No: 40 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 819 3400 52987 83812 3700000 33589 5000 13805 100 3000 5073"
+Iteration No: 40 ended. Evaluation done at random point.
+Time taken: 167.7127
+Function value obtained: 0.1258
+Current minimum: 0.1258
+Iteration No: 41 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 649 3400 51626 73755 3700000 24700 5000 12855 931 3000 4972"
+Iteration No: 41 ended. Evaluation done at random point.
+Time taken: 169.3643
+Function value obtained: 0.1102
+Current minimum: 0.1102
+Iteration No: 42 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 60098 69101 3700000 12378 5000 13160 100 3000 5084"
+Iteration No: 42 ended. Evaluation done at random point.
+Time taken: 166.9924
+Function value obtained: 0.1257
+Current minimum: 0.1102
+Iteration No: 43 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 825 3400 50221 75842 3700000 25399 5000 12486 831 3000 4800"
+Iteration No: 43 ended. Evaluation done at random point.
+Time taken: 166.3771
+Function value obtained: 0.1259
+Current minimum: 0.1102
+Iteration No: 44 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 54486 60357 3700000 7712 11955 11979 1000 3000 5150"
+Iteration No: 44 ended. Evaluation done at random point.
+Time taken: 167.0664
+Function value obtained: 0.1624
+Current minimum: 0.1102
+Iteration No: 45 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 1100 3400 30000 140000 3700000 50000 5000 5000 100 0 16384"
+Iteration No: 45 ended. Evaluation done at random point.
+Time taken: 159.0055
+Function value obtained: 0.5616
+Current minimum: 0.1102
+Iteration No: 46 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 50228 73842 3700000 30009 5000 13035 100 3000 4995"
+Iteration No: 46 ended. Evaluation done at random point.
+Time taken: 167.8590
+Function value obtained: 0.1181
+Current minimum: 0.1102
+Iteration No: 47 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 668 3400 53534 75006 3700000 23084 5000 13924 350 3000 5040"
+Iteration No: 47 ended. Evaluation done at random point.
+Time taken: 169.0295
+Function value obtained: 0.1119
+Current minimum: 0.1102
+Iteration No: 48 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 30000 30000 3700000 50000 50000 5000 100 3000 12899"
+Iteration No: 48 ended. Evaluation done at random point.
+Time taken: 149.4668
+Function value obtained: 0.4544
+Current minimum: 0.1102
+Iteration No: 49 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 645 3400 53485 75680 3700000 21316 5000 12638 421 3000 5161"
+Iteration No: 49 ended. Evaluation done at random point.
+Time taken: 168.1573
+Function value obtained: 0.1188
+Current minimum: 0.1102
+Iteration No: 50 started. Evaluating function at random point.
+sh -c "./ssd_config_make.sh 600 3400 120000 30000 3700000 5000 50000 5000 490 3000 8447"
+Iteration No: 50 ended. Evaluation done at random point.
+Time taken: 151.4581
+Function value obtained: 0.4784
+Current minimum: 0.1102
+sh -c "./ssd_config_make.sh 600 3400 54842 73849 3700000 23162 5000 13604 400 3000 4839"
+Iteration No: 51 ended. Evaluation done at random point.
+Time taken: 321.4563
+Function value obtained: 0.0692
+Current minimum: 0.0692
+          fun: 0.06919534106486822
+            x: [600, 54842, 73849, 23162, 5000, 13604, 400, 3000, 4839]
+    func_vals: [ 9.487e-01  6.825e-01 ...  4.784e-01  6.920e-02]
+      x_iters: [[635, 109949, 38999, 11560, 12971, 17409, 394, 2065, 2509], [921, 118927, 135727, 26312, 23519, 14056, 118, 2526, 14592], [668, 60884, 72348, 33085, 42588, 15673, 511, 2473, 3391], [705, 107747, 132498, 21462, 34071, 8732, 504, 2251, 13521], [768, 94072, 64274, 7449, 6720, 5472, 968, 1553, 7251], [901, 117902, 97628, 29769, 39665, 7805, 272, 1485, 6187], [715, 33151, 62473, 48938, 44008, 11919, 540, 434, 3206], [1044, 78052, 83819, 21116, 49682, 6193, 891, 941, 6022], [643, 48056, 115034, 8539, 27893, 13162, 848, 2665, 16059], [1026, 49550, 31919, 27336, 44752, 12145, 373, 27, 9918], [950, 113522, 78119, 27052, 18969, 15650, 982, 1896, 3600], [1098, 77852, 118770, 47557, 29346, 5609, 892, 882, 3284], [842, 79614, 85078, 6383, 28439, 18962, 849, 588, 6990], [1031, 62910, 122697, 31545, 36421, 8709, 137, 2240, 11133], [657, 40203, 64015, 32021, 13967, 18276, 280, 1690, 6971], [787, 72108, 81522, 40187, 26649, 18478, 213, 695, 10063], [681, 81638, 137592, 22750, 30125, 6241, 802, 2342, 6019], [953, 85007, 113284, 23954, 26381, 7576, 846, 649, 15565], [731, 48338, 103574, 48033, 35411, 18207, 145, 909, 3687], [1013, 98140, 58598, 43211, 46858, 14244, 505, 2512, 7854], [732, 62708, 68413, 10344, 40035, 20000, 329, 1226, 13925], [600, 30000, 81993, 45184, 21625, 17092, 106, 0, 16384], [600, 30371, 86819, 35492, 5000, 20000, 100, 0, 16384], [1085, 30000, 79569, 44764, 28286, 20000, 290, 32, 14990], [600, 120000, 80416, 29352, 5331, 18151, 225, 0, 15938], [600, 30000, 80658, 6910, 34424, 17330, 828, 543, 2048], [1100, 30000, 30000, 5000, 5000, 5000, 1000, 0, 16384], [628, 31042, 77700, 50000, 29142, 15736, 100, 12, 16384], [804, 88951, 87355, 5000, 5000, 20000, 714, 613, 11912], [600, 47582, 63863, 42506, 17338, 19332, 204, 953, 9793], [1009, 30000, 51205, 34814, 44709, 5000, 210, 2209, 2048], [632, 44717, 42572, 34278, 6493, 20000, 250, 1359, 12520], [656, 30026, 61360, 34259, 9477, 19805, 199, 1151, 6730], [694, 30000, 39045, 14438, 33555, 19065, 105, 90, 14113], [600, 31487, 48135, 50000, 5000, 7210, 424, 2620, 9986], [600, 64946, 73544, 50000, 50000, 20000, 1000, 0, 5384], [600, 30000, 127374, 39774, 9129, 18444, 100, 0, 16384], [665, 52416, 68359, 32357, 22555, 17496, 373, 2173, 7508], [635, 38938, 70307, 32260, 30012, 13733, 155, 1441, 7392], [759, 30000, 54832, 50000, 45361, 8729, 688, 1203, 4064], [774, 87024, 52092, 50000, 30766, 12196, 652, 555, 4573], [905, 30000, 71495, 5000, 5000, 19112, 568, 3000, 7523], [804, 30000, 65172, 50000, 50000, 20000, 1000, 2178, 6944], [600, 30000, 56678, 5000, 43671, 19016, 763, 954, 4617], [600, 30000, 60396, 50000, 21987, 19025, 630, 543, 4004], [600, 96152, 119034, 46529, 50000, 20000, 100, 2306, 8460], [797, 34553, 49780, 39647, 50000, 5000, 650, 2880, 4071], [745, 30000, 67127, 34098, 22975, 11180, 259, 501, 7322], [963, 30000, 90785, 50000, 35493, 6932, 683, 433, 16384], [600, 120000, 58212, 5000, 37078, 7991, 704, 397, 10783], [1027, 30000, 68689, 50000, 40646, 8626, 344, 2400, 4174], [600, 48785, 71004, 21147, 45486, 19672, 416, 2258, 7145], [600, 30000, 72688, 50000, 32703, 6582, 734, 0, 10618], [787, 30000, 78144, 50000, 5000, 19026, 738, 283, 10575], [600, 30000, 68645, 50000, 13756, 6386, 349, 0, 7643], [934, 30000, 72444, 50000, 18702, 5919, 1000, 328, 13062], [1100, 30000, 69411, 5000, 34635, 8182, 100, 0, 11590], [674, 120000, 69847, 50000, 30858, 18413, 1000, 1517, 10056], [664, 47641, 65556, 33115, 5423, 8843, 348, 1553, 7560], [1013, 30000, 63099, 50000, 50000, 19018, 100, 857, 4605], [629, 54493, 72882, 23555, 50000, 20000, 100, 0, 9114], [896, 113170, 51992, 5000, 43294, 20000, 100, 0, 12726], [600, 64857, 57265, 50000, 5000, 20000, 100, 0, 14202], [858, 30000, 68809, 50000, 29211, 5000, 1000, 398, 4347], [728, 30000, 30000, 50000, 50000, 20000, 100, 0, 5128], [610, 57700, 66911, 50000, 44575, 15058, 100, 0, 11172], [600, 74262, 54446, 5000, 50000, 20000, 100, 63, 6294], [835, 86888, 55418, 50000, 8126, 15041, 1000, 1083, 11618], [686, 56377, 77338, 50000, 37963, 20000, 100, 3000, 16384], [600, 30000, 69371, 31817, 25510, 19503, 100, 0, 10366], [1079, 44786, 61820, 50000, 23672, 18756, 100, 1499, 4395], [600, 30000, 55883, 50000, 5000, 20000, 100, 0, 16384], [820, 30000, 72948, 50000, 39132, 20000, 100, 940, 11727], [1084, 30000, 32694, 50000, 50000, 20000, 100, 2759, 7797], [600, 79276, 73673, 5000, 5000, 20000, 100, 1771, 5016], [600, 107079, 61552, 5000, 45519, 20000, 100, 2447, 5150], [647, 68493, 77161, 5000, 44465, 5867, 100, 3000, 5148], [784, 120000, 30000, 5000, 5000, 20000, 100, 759, 5883], [895, 52822, 54680, 28143, 38622, 20000, 100, 0, 8034], [600, 30000, 59323, 50000, 12953, 20000, 100, 0, 4645], [822, 83184, 72253, 5000, 5000, 20000, 100, 191, 10350], [769, 30000, 67886, 50000, 50000, 19668, 100, 3000, 9150], [600, 56876, 58314, 28745, 5000, 20000, 100, 3000, 4859], [600, 65801, 74509, 28633, 5000, 20000, 100, 0, 12778], [600, 120000, 140000, 50000, 5000, 20000, 100, 0, 16384], [600, 120000, 80210, 5000, 50000, 6494, 100, 3000, 14019], [881, 60153, 68384, 30918, 5855, 20000, 100, 3000, 10946], [600, 30000, 87895, 26615, 45206, 20000, 100, 2222, 14245], [600, 79349, 52196, 5000, 50000, 20000, 437, 0, 12049], [600, 30000, 57286, 50000, 34581, 20000, 689, 3000, 4520], [1005, 59546, 61476, 29983, 5000, 20000, 100, 0, 4615], [600, 30000, 30000, 5000, 27746, 20000, 100, 3000, 6150], [787, 30000, 57433, 50000, 5000, 5000, 100, 3000, 4673], [600, 120000, 89666, 5000, 50000, 20000, 599, 2655, 4777], [600, 94119, 30000, 5000, 13244, 20000, 100, 0, 13869], [889, 30000, 30000, 50000, 50000, 20000, 109, 0, 14476], [636, 30000, 78071, 50000, 34720, 20000, 742, 1001, 15666], [600, 67932, 60437, 5000, 50000, 20000, 100, 3000, 5719], [659, 120000, 30000, 50000, 47511, 11030, 376, 0, 16384], [600, 30000, 54251, 41085, 5000, 20000, 330, 0, 8544], [985, 56331, 42354, 50000, 35949, 20000, 100, 143, 6765], [1100, 30000, 85998, 38317, 17084, 11146, 100, 2403, 15960], [600, 114098, 30000, 5000, 45605, 20000, 100, 2982, 9290], [778, 86451, 60991, 5000, 45481, 20000, 100, 523, 8458], [600, 30000, 78168, 14895, 20115, 5000, 100, 2967, 10643], [600, 59667, 67045, 50000, 35469, 20000, 239, 1124, 4196], [1100, 40545, 67368, 50000, 5000, 20000, 100, 3000, 10541], [1100, 30000, 58468, 50000, 12292, 20000, 1000, 53, 14242], [600, 109966, 68853, 50000, 16235, 20000, 327, 392, 11223], [600, 65159, 69020, 15761, 19464, 20000, 100, 3000, 5666], [600, 30000, 60503, 50000, 50000, 5000, 100, 1463, 4722], [1100, 72042, 59455, 5000, 5000, 20000, 1000, 1240, 5359], [1100, 55527, 86531, 27579, 31168, 20000, 100, 824, 16384], [1100, 75829, 65476, 5000, 8744, 5000, 100, 2044, 13152], [600, 30000, 80455, 15158, 50000, 20000, 100, 0, 5822], [600, 96824, 30000, 5000, 50000, 20000, 100, 1238, 11066], [600, 65999, 63791, 14793, 49854, 20000, 100, 2288, 7233], [600, 52888, 64756, 50000, 50000, 20000, 100, 2591, 4251], [1100, 30000, 81289, 43864, 32247, 20000, 417, 0, 7988], [707, 30000, 30000, 50000, 50000, 20000, 100, 0, 11443], [600, 30000, 67075, 50000, 50000, 20000, 100, 1851, 11280], [600, 30000, 58229, 50000, 46726, 12172, 1000, 3000, 5001], [600, 41488, 71207, 50000, 36154, 13346, 100, 2644, 4695], [1100, 46399, 100644, 50000, 5000, 13872, 1000, 3000, 5016], [892, 30000, 55545, 50000, 46359, 11709, 1000, 3000, 4676], [600, 47001, 83756, 50000, 5000, 14124, 1000, 3000, 4988], [600, 42217, 87260, 50000, 5000, 5000, 100, 3000, 16384], [600, 45407, 90719, 50000, 5000, 14936, 100, 3000, 5620], [802, 34385, 83759, 50000, 5000, 14770, 1000, 3000, 4796], [600, 75252, 80089, 5000, 5000, 13243, 1000, 3000, 5778], [600, 83195, 78803, 5000, 5000, 13826, 100, 3000, 6698], [600, 43004, 82722, 33395, 5000, 14063, 1000, 3000, 5148], [600, 49938, 87138, 23814, 5000, 14123, 482, 3000, 5025], [600, 46821, 93640, 10218, 5000, 13830, 1000, 3000, 5228], [600, 64613, 83605, 29138, 5000, 13581, 1000, 3000, 4979], [719, 53465, 82448, 32829, 5000, 13575, 899, 3000, 5062], [600, 84898, 30000, 5000, 50000, 9674, 1000, 3000, 6197], [1100, 30000, 30000, 50000, 50000, 9306, 1000, 3000, 5298], [819, 52987, 83812, 33589, 5000, 13805, 100, 3000, 5073], [649, 51626, 73755, 24700, 5000, 12855, 931, 3000, 4972], [600, 60098, 69101, 12378, 5000, 13160, 100, 3000, 5084], [825, 50221, 75842, 25399, 5000, 12486, 831, 3000, 4800], [600, 54486, 60357, 7712, 11955, 11979, 1000, 3000, 5150], [1100, 30000, 140000, 50000, 5000, 5000, 100, 0, 16384], [600, 50228, 73842, 30009, 5000, 13035, 100, 3000, 4995], [668, 53534, 75006, 23084, 5000, 13924, 350, 3000, 5040], [600, 30000, 30000, 50000, 50000, 5000, 100, 3000, 12899], [645, 53485, 75680, 21316, 5000, 12638, 421, 3000, 5161], [600, 120000, 30000, 5000, 50000, 5000, 490, 3000, 8447], [600, 54842, 73849, 23162, 5000, 13604, 400, 3000, 4839]]
+       models: [GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753), GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5) + WhiteKernel(noise_level=1),
+                                        n_restarts_optimizer=2, noise='gaussian',
+                                        normalize_y=True, random_state=136170753)]
+        space: Space([Integer(low=600, high=1100, prior='uniform', transform='normalize'),
+                      Integer(low=30000.0, high=120000.0, prior='uniform', transform='normalize'),
+                      Integer(low=30000.0, high=140000.0, prior='uniform', transform='normalize'),
+                      Integer(low=5000.0, high=50000.0, prior='uniform', transform='normalize'),
+                      Integer(low=5000.0, high=50000.0, prior='uniform', transform='normalize'),
+                      Integer(low=5000.0, high=20000.0, prior='uniform', transform='normalize'),
+                      Integer(low=100, high=1000.0, prior='uniform', transform='normalize'),
+                      Integer(low=0, high=3000.0, prior='uniform', transform='normalize'),
+                      Integer(low=2048, high=16384, prior='uniform', transform='normalize')])
+ random_state: RandomState(MT19937)
+        specs:     args:                    func: <function objective_opt at 0x7f83fc8c1c60>
+                                      dimensions: Space([Integer(low=600, high=1100, prior='uniform', transform='normalize'),
+                                                         Integer(low=30000.0, high=120000.0, prior='uniform', transform='normalize'),
+                                                         Integer(low=30000.0, high=140000.0, prior='uniform', transform='normalize'),
+                                                         Integer(low=5000.0, high=50000.0, prior='uniform', transform='normalize'),
+                                                         Integer(low=5000.0, high=50000.0, prior='uniform', transform='normalize'),
+                                                         Integer(low=5000.0, high=20000.0, prior='uniform', transform='normalize'),
+                                                         Integer(low=100, high=1000.0, prior='uniform', transform='normalize'),
+                                                         Integer(low=0, high=3000.0, prior='uniform', transform='normalize'),
+                                                         Integer(low=2048, high=16384, prior='uniform', transform='normalize')])
+                                  base_estimator: GaussianProcessRegressor(kernel=1**2 * Matern(length_scale=[1, 1, 1, 1, 1, 1, 1, 1, 1], nu=2.5),
+                                                                           n_restarts_optimizer=2, noise='gaussian',
+                                                                           normalize_y=True, random_state=136170753)
+                                         n_calls: 50
+                                 n_random_starts: None
+                                n_initial_points: 0
+                         initial_point_generator: random
+                                        acq_func: gp_hedge
+                                   acq_optimizer: auto
+                                              x0: [[635, 109949, 38999, 11560, 12971, 17409, 394, 2065, 2509], [921, 118927, 135727, 26312, 23519, 14056, 118, 2526, 14592], [668, 60884, 72348, 33085, 42588, 15673, 511, 2473, 3391], [705, 107747, 132498, 21462, 34071, 8732, 504, 2251, 13521], [768, 94072, 64274, 7449, 6720, 5472, 968, 1553, 7251], [901, 117902, 97628, 29769, 39665, 7805, 272, 1485, 6187], [715, 33151, 62473, 48938, 44008, 11919, 540, 434, 3206], [1044, 78052, 83819, 21116, 49682, 6193, 891, 941, 6022], [643, 48056, 115034, 8539, 27893, 13162, 848, 2665, 16059], [1026, 49550, 31919, 27336, 44752, 12145, 373, 27, 9918], [950, 113522, 78119, 27052, 18969, 15650, 982, 1896, 3600], [1098, 77852, 118770, 47557, 29346, 5609, 892, 882, 3284], [842, 79614, 85078, 6383, 28439, 18962, 849, 588, 6990], [1031, 62910, 122697, 31545, 36421, 8709, 137, 2240, 11133], [657, 40203, 64015, 32021, 13967, 18276, 280, 1690, 6971], [787, 72108, 81522, 40187, 26649, 18478, 213, 695, 10063], [681, 81638, 137592, 22750, 30125, 6241, 802, 2342, 6019], [953, 85007, 113284, 23954, 26381, 7576, 846, 649, 15565], [731, 48338, 103574, 48033, 35411, 18207, 145, 909, 3687], [1013, 98140, 58598, 43211, 46858, 14244, 505, 2512, 7854], [732, 62708, 68413, 10344, 40035, 20000, 329, 1226, 13925], [600, 30000, 81993, 45184, 21625, 17092, 106, 0, 16384], [600, 30371, 86819, 35492, 5000, 20000, 100, 0, 16384], [1085, 30000, 79569, 44764, 28286, 20000, 290, 32, 14990], [600, 120000, 80416, 29352, 5331, 18151, 225, 0, 15938], [600, 30000, 80658, 6910, 34424, 17330, 828, 543, 2048], [1100, 30000, 30000, 5000, 5000, 5000, 1000, 0, 16384], [628, 31042, 77700, 50000, 29142, 15736, 100, 12, 16384], [804, 88951, 87355, 5000, 5000, 20000, 714, 613, 11912], [600, 47582, 63863, 42506, 17338, 19332, 204, 953, 9793], [1009, 30000, 51205, 34814, 44709, 5000, 210, 2209, 2048], [632, 44717, 42572, 34278, 6493, 20000, 250, 1359, 12520], [656, 30026, 61360, 34259, 9477, 19805, 199, 1151, 6730], [694, 30000, 39045, 14438, 33555, 19065, 105, 90, 14113], [600, 31487, 48135, 50000, 5000, 7210, 424, 2620, 9986], [600, 64946, 73544, 50000, 50000, 20000, 1000, 0, 5384], [600, 30000, 127374, 39774, 9129, 18444, 100, 0, 16384], [665, 52416, 68359, 32357, 22555, 17496, 373, 2173, 7508], [635, 38938, 70307, 32260, 30012, 13733, 155, 1441, 7392], [759, 30000, 54832, 50000, 45361, 8729, 688, 1203, 4064], [774, 87024, 52092, 50000, 30766, 12196, 652, 555, 4573], [905, 30000, 71495, 5000, 5000, 19112, 568, 3000, 7523], [804, 30000, 65172, 50000, 50000, 20000, 1000, 2178, 6944], [600, 30000, 56678, 5000, 43671, 19016, 763, 954, 4617], [600, 30000, 60396, 50000, 21987, 19025, 630, 543, 4004], [600, 96152, 119034, 46529, 50000, 20000, 100, 2306, 8460], [797, 34553, 49780, 39647, 50000, 5000, 650, 2880, 4071], [745, 30000, 67127, 34098, 22975, 11180, 259, 501, 7322], [963, 30000, 90785, 50000, 35493, 6932, 683, 433, 16384], [600, 120000, 58212, 5000, 37078, 7991, 704, 397, 10783], [1027, 30000, 68689, 50000, 40646, 8626, 344, 2400, 4174], [600, 48785, 71004, 21147, 45486, 19672, 416, 2258, 7145], [600, 30000, 72688, 50000, 32703, 6582, 734, 0, 10618], [787, 30000, 78144, 50000, 5000, 19026, 738, 283, 10575], [600, 30000, 68645, 50000, 13756, 6386, 349, 0, 7643], [934, 30000, 72444, 50000, 18702, 5919, 1000, 328, 13062], [1100, 30000, 69411, 5000, 34635, 8182, 100, 0, 11590], [674, 120000, 69847, 50000, 30858, 18413, 1000, 1517, 10056], [664, 47641, 65556, 33115, 5423, 8843, 348, 1553, 7560], [1013, 30000, 63099, 50000, 50000, 19018, 100, 857, 4605], [629, 54493, 72882, 23555, 50000, 20000, 100, 0, 9114], [896, 113170, 51992, 5000, 43294, 20000, 100, 0, 12726], [600, 64857, 57265, 50000, 5000, 20000, 100, 0, 14202], [858, 30000, 68809, 50000, 29211, 5000, 1000, 398, 4347], [728, 30000, 30000, 50000, 50000, 20000, 100, 0, 5128], [610, 57700, 66911, 50000, 44575, 15058, 100, 0, 11172], [600, 74262, 54446, 5000, 50000, 20000, 100, 63, 6294], [835, 86888, 55418, 50000, 8126, 15041, 1000, 1083, 11618], [686, 56377, 77338, 50000, 37963, 20000, 100, 3000, 16384], [600, 30000, 69371, 31817, 25510, 19503, 100, 0, 10366], [1079, 44786, 61820, 50000, 23672, 18756, 100, 1499, 4395], [600, 30000, 55883, 50000, 5000, 20000, 100, 0, 16384], [820, 30000, 72948, 50000, 39132, 20000, 100, 940, 11727], [1084, 30000, 32694, 50000, 50000, 20000, 100, 2759, 7797], [600, 79276, 73673, 5000, 5000, 20000, 100, 1771, 5016], [600, 107079, 61552, 5000, 45519, 20000, 100, 2447, 5150], [647, 68493, 77161, 5000, 44465, 5867, 100, 3000, 5148], [784, 120000, 30000, 5000, 5000, 20000, 100, 759, 5883], [895, 52822, 54680, 28143, 38622, 20000, 100, 0, 8034], [600, 30000, 59323, 50000, 12953, 20000, 100, 0, 4645], [822, 83184, 72253, 5000, 5000, 20000, 100, 191, 10350], [769, 30000, 67886, 50000, 50000, 19668, 100, 3000, 9150], [600, 56876, 58314, 28745, 5000, 20000, 100, 3000, 4859], [600, 65801, 74509, 28633, 5000, 20000, 100, 0, 12778], [600, 120000, 140000, 50000, 5000, 20000, 100, 0, 16384], [600, 120000, 80210, 5000, 50000, 6494, 100, 3000, 14019], [881, 60153, 68384, 30918, 5855, 20000, 100, 3000, 10946], [600, 30000, 87895, 26615, 45206, 20000, 100, 2222, 14245], [600, 79349, 52196, 5000, 50000, 20000, 437, 0, 12049], [600, 30000, 57286, 50000, 34581, 20000, 689, 3000, 4520], [1005, 59546, 61476, 29983, 5000, 20000, 100, 0, 4615], [600, 30000, 30000, 5000, 27746, 20000, 100, 3000, 6150], [787, 30000, 57433, 50000, 5000, 5000, 100, 3000, 4673], [600, 120000, 89666, 5000, 50000, 20000, 599, 2655, 4777], [600, 94119, 30000, 5000, 13244, 20000, 100, 0, 13869], [889, 30000, 30000, 50000, 50000, 20000, 109, 0, 14476], [636, 30000, 78071, 50000, 34720, 20000, 742, 1001, 15666], [600, 67932, 60437, 5000, 50000, 20000, 100, 3000, 5719], [659, 120000, 30000, 50000, 47511, 11030, 376, 0, 16384], [600, 30000, 54251, 41085, 5000, 20000, 330, 0, 8544]]
+                                              y0: [ 9.487e-01  6.825e-01
+                                                   ...  7.226e-01
+                                                    4.220e-01]
+                                    random_state: RandomState(MT19937)
+                                         verbose: True
+                                        callback: [<skopt.callbacks.CheckpointSaver object at 0x7f838bd35e80>, <skopt.callbacks.VerboseCallback object at 0x7f838bcfc530>]
+                                        n_points: 10000
+                            n_restarts_optimizer: 5
+                                              xi: 0.01
+                                           kappa: 1.96
+                                          n_jobs: 1
+                                model_queue_size: None
+               function: base_minimize
+sudo: 1 incorrect password attempt

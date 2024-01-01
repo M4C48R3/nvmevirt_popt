@@ -19,6 +19,7 @@
 /*************************/
 #define NVMEV_DRV_NAME "NVMeVirt"
 #define NVMEV_VERSION 0x0110
+//#define CONFIG_NVMEV_DEBUG
 #define NVMEV_DEVICE_ID	NVMEV_VERSION
 #define NVMEV_VENDOR_ID 0x0c51
 #define NVMEV_SUBSYSTEM_ID	0x370d

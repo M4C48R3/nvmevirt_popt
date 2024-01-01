@@ -107,6 +107,8 @@ struct nand_lun {
 	struct nand_plane *pl;
 	int npls;
 	uint64_t next_lun_avail_time;
+	uint64_t next_write_finish_time;
+	float read_slowdown_factor; /* how many times a read is slowed while write is ongoing. 1 means read proceeds normally even when write is underway (unlikely), 10 means read proceeds at 1/10th the normal speed while write is underway. If reads are blocked while a write is underway in the LUN, set to a very high value */
 	bool busy;
 	uint64_t gc_endtime;
 };
@@ -127,6 +129,7 @@ struct nand_cmd {
 	int cmd;
 	uint64_t xfer_size; // byte
 	uint64_t stime; /* Coperd: request arrival time */
+	uint64_t wbuf_finish_time; /* for ssd_advance_nand in conv_ftl */
 	bool interleave_pci_dma;
 	struct ppa *ppa;
 };
@@ -250,7 +253,7 @@ static inline struct nand_page *get_pg(struct ssd *ssd, struct ppa *ppa)
 static inline uint32_t get_cell(struct ssd *ssd, struct ppa *ppa)
 {
 	struct ssdparams *spp = &ssd->sp;
-	return (ppa->g.pg / spp->pgs_per_flashpg) % (spp->cell_mode + 1);
+	return (ppa->g.pg / spp->pgs_per_flashpg) % (spp->cell_mode);
 }
 
 void ssd_init_params(struct ssdparams *spp, uint64_t capacity, uint32_t nparts);
