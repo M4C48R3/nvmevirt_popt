@@ -77,6 +77,16 @@ void ssd_init_params(struct ssdparams *spp, uint64_t capacity, uint32_t nparts)
 	spp->luns_per_ch = LUNS_PER_NAND_CH;
 	spp->cell_mode = CELL_MODE;
 
+	#ifdef READ_SLOWDOWN_WHILE_WRITE
+	if (!(READ_SLOWDOWN_WHILE_WRITE)){
+		NVMEV_ERROR("READ_SLOWDOWN_WHILE_WRITE should not be zero");
+	}
+	spp->read_slowdown_factor = READ_SLOWDOWN_WHILE_WRITE;
+	#endif
+	#ifndef READ_SLOWDOWN_WHILE_WRITE
+	spp->read_slowdown_factor = 999 * READ_SLOWDOWN_BASE; /* read is blocked (slowed down 999x) while write is ongoing */
+	#endif
+
 	/* partitioning SSD by dividing channel*/
 	NVMEV_ASSERT((spp->nchs % nparts) == 0);
 	spp->nchs /= nparts;
@@ -239,16 +249,7 @@ static void ssd_init_nand_lun(struct nand_lun *lun, struct ssdparams *spp)
 		ssd_init_nand_plane(&lun->pl[i], spp);
 	}
 	lun->next_lun_avail_time = 0;
-	lun->next_write_finish_time = 0;
-	#ifdef READ_SLOWDOWN_WHILE_WRITE
-	if (!(READ_SLOWDOWN_WHILE_WRITE)){
-		NVMEV_ERROR("READ_SLOWDOWN_WHILE_WRITE should not be zero");
-	}
-	lun->read_slowdown_factor = READ_SLOWDOWN_WHILE_WRITE;
-	#endif
-	#ifndef READ_SLOWDOWN_WHILE_WRITE
-	lun->read_slowdown_factor = 999; /* read is blocked (slowed down 999x) while write is ongoing */
-	#endif
+	lun->next_read_start_time = 0;
 	lun->busy = false;
 }
 
@@ -379,6 +380,10 @@ uint64_t ssd_advance_nand(struct ssd *ssd, struct nand_cmd *ncmd)
 	struct nand_lun *lun;
 	struct ssd_channel *ch;
 	struct ppa *ppa = ncmd->ppa;
+	uint64_t time_elapsed;
+	uint64_t max_time_while_writing;
+
+
 	uint32_t cell;
 	NVMEV_DEBUG(
 		"SSD: %p, Enter stime: %lld, ch %d lun %d blk %d page %d command %d ppa 0x%llx\n",
@@ -398,7 +403,12 @@ uint64_t ssd_advance_nand(struct ssd *ssd, struct nand_cmd *ncmd)
 	switch (c) {
 	case NAND_READ:
 		/* read: perform NAND cmd first */
+		
+		#if (SUPPORTED_SSD_TYPE(CONV))
+		nand_stime = max(lun->next_read_start_time, cmd_stime);
+		#else
 		nand_stime = max(lun->next_lun_avail_time, cmd_stime);
+		#endif
 
 		if (ncmd->xfer_size == 4096) {
 			nand_etime = nand_stime + spp->pg_4kb_rd_lat[cell];
@@ -423,7 +433,33 @@ uint64_t ssd_advance_nand(struct ssd *ssd, struct nand_cmd *ncmd)
 			chnl_stime = chnl_etime;
 		}
 
-		lun->next_lun_avail_time = chnl_etime;
+		// take account of slowdown while write is underway
+		// if a read overlaps with write, read should be slowed down, only contribute to a fraction of the time taken
+		#if (SUPPORTED_SSD_TYPE(CONV))
+		if(nand_stime < lun->next_lun_avail_time){
+			// start before LUN is normally available (write not complete)
+			// read slowed down for the duration of the write
+			// t=(time while write is underway) only contributes to t/x, where x = READ_SLOWDOWN_WHILE_WRITE / READ_SLOWDOWN_BASE
+			// up to max_time_while_writing amount of work (for normal situations, without write) is done until the write is completed
+			// after that, the read proceeds normally
+			time_elapsed = completed_time - nand_stime;
+			max_time_while_writing = (lun->next_lun_avail_time - nand_stime) * READ_SLOWDOWN_BASE / spp->read_slowdown_factor; // (time write completes - start time) / x
+			if(time_elapsed < max_time_while_writing){
+				// all of the read is slowed down by a factor of x
+				completed_time += time_elapsed * (spp->read_slowdown_factor - READ_SLOWDOWN_BASE) / READ_SLOWDOWN_BASE;
+			}
+			else{
+				// the read is not completed while the write is underway
+				// the read is slowed down by a factor of x for the duration of the write
+				completed_time = lun->next_lun_avail_time + (time_elapsed - max_time_while_writing);
+			}
+			chnl_etime = completed_time;
+		}
+
+		#endif
+
+		lun->next_lun_avail_time = max(lun->next_lun_avail_time, chnl_etime);
+		lun->next_read_start_time = chnl_etime; // a read should not start before the previous read
 		break;
 
 	case NAND_WRITE:
@@ -437,7 +473,8 @@ uint64_t ssd_advance_nand(struct ssd *ssd, struct nand_cmd *ncmd)
 		nand_etime = nand_stime + spp->pg_wr_lat;
 		lun->next_lun_avail_time = nand_etime;
 		#if (SUPPORTED_SSD_TYPE(CONV))
-		if(ncmd->type == USER_IO) lun->next_write_finish_time = ncmd->wbuf_finish_time; // write buffer only involved for user I/O (not GC)
+		if(ncmd->type == USER_IO) lun->next_read_start_time = min(nand_etime, ncmd->wbuf_finish_time); // write buffer only involved for user I/O (not GC)
+		else lun->next_read_start_time = nand_etime;
 		#endif
 		completed_time = nand_etime;
 		break;

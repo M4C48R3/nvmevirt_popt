@@ -23,6 +23,8 @@
 #define CELL_MODE_TLC 3
 #define CELL_MODE_QLC 4
 
+#define READ_SLOWDOWN_BASE 1000 /* if READ_SLOWDOWN_WHILE_WRITE is defined, write and read can overlap. The read is slowed by a factor (READ_SLOWDOWN_WHILE_WRITE) / (READ_SLOWDOWN_BASE). */
+
 /* Must select one of INTEL_OPTANE, SAMSUNG_970PRO, or ZNS_PROTOTYPE
  * in Makefile */
 
@@ -76,6 +78,7 @@ static_assert((ONESHOT_PAGE_SIZE % FLASH_PAGE_SIZE) == 0);
 
 #define MAX_CH_XFER_SIZE KB(16) /* to overlap with pcie transfer */
 #define WRITE_UNIT_SIZE (512)
+#define READ_SLOWDOWN_WHILE_WRITE (1515)
 
 #define NAND_CHANNEL_BANDWIDTH (600ull) //MB/s
 #define PCIE_BANDWIDTH (3400ull) //MB/s
@@ -86,8 +89,8 @@ static_assert((ONESHOT_PAGE_SIZE % FLASH_PAGE_SIZE) == 0);
 #define NAND_READ_LATENCY_LSB (73849)
 #define NAND_READ_LATENCY_MSB (73849)
 #define NAND_READ_LATENCY_CSB (73849)
-#define NAND_PROG_LATENCY (3700000)
-#define NAND_ERASE_LATENCY (3700000)
+#define NAND_PROG_LATENCY (2320000)
+#define NAND_ERASE_LATENCY (2320000)
 
 #define FW_4KB_READ_LATENCY (5000)
 #define FW_READ_LATENCY (5000)

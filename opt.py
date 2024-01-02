@@ -42,19 +42,25 @@ def objective(parameters):
 	# list test parameters (skip some blocksize or change test io size)
 	#blocksizes = (4096,16384,65536,131072,262144)
 	blocksizes = (4*1024,8*1024,16*1024,32*1024,64*1024,128*1024,256*1024)
-	testsize = 3 * (2 ** 30) 
+	testsize = 2 * (2 ** 30) 
+
+	# load module and check virtual device id
+	os.system(mod_install_script)
+	list_find = os.popen(f"sudo nvme list | grep \"{virtdevid}\"").read().strip()
+	if list_find.find("CSL_VIRT_SN_01") == -1:
+		raise Exception("Wrong virtual device route given")
+		
 
 	# -*- randread -*-
 	#actual = {4096: 62922, 8192: 76133, 16384: 86471, 32768: 104286, 65536: 136775, 131072: 197360, 262144: 284247} # U.2 Delta
 	actual = {4096: 93316, 8192: 100216, 16384: 121761, 32768: 176205, 65536: 276317, 131072: 417107, 262144:485448}
 
 	# sequential write before randread
-	os.system(mod_install_script)
 	os.system(f"sudo fio --name=SW_before_RR --rw=write --bs=256k --iodepth=64 --runtime=40 --size={testsize} --numjobs=1 --direct=1 --filename={virtdevid} --output=/dev/null")
 	 
 	for bs in blocksizes:
 		os.system(f"sudo fio --name=RR_{bs} --minimal --rw=randread --bs={bs} --iodepth=1 --size={testsize} --numjobs=1 --direct=1 --filename={virtdevid} "
-		f"--runtime=20 --output-format=json --output=./results/{bs}.json")
+		f"--runtime=20 --startdelay=1 --output-format=json --output=./results/{bs}.json")
 		f = open(f"./results/{bs}.json")
 		v = json.load(f)["jobs"][0]["read"]["lat_ns"]["mean"]
 		errors.append(abs(actual[bs] - v) / actual[bs])
@@ -68,7 +74,7 @@ def objective(parameters):
 	offset = testsize
 	for bs in blocksizes:
 		os.system(f"sudo fio --name=RW_{bs} --minimal --rw=randwrite --bs={bs} --iodepth=1 --size={testsize} --numjobs=1 --direct=1 --filename={virtdevid} "
-		f"--offset={offset} --startdelay=2 --runtime=30 --output-format=json --output=./results/{bs}.json")
+		f"--offset={offset} --startdelay=1 --runtime=30 --output-format=json --output=./results/{bs}.json")
 		offset += testsize
 		f = open(f"./results/{bs}.json")
 		v = json.load(f)["jobs"][0]["write"]["lat_ns"]["mean"]
@@ -147,6 +153,6 @@ def skopt_dim(space_ends):
 # 		x0=res.x_iters if LOAD else None, y0=res.func_vals if LOAD else None
 # 	)
 # 	print(res)
-#objective([1600,6900,37e3,46e3, 1.85e6, 15e3, 15e3, 6500, 200, 80, 64*1024]) # test
+objective([1600,6900,40e3,50e3, 1.85e6, 15e3, 15e3, 6500, 300, 300, 64*1024]) # test
 #objective([1150,3400,68e3,85e3, 3.7e6, 15e3, 15e3, 13500, 210, 2500, 8*1024])
-objective([600,3400,73849,73849,3700000,5000,5000,13604,400,3000,4839]) # Bravo (PCIe 3.0)
+#objective([600,3400,73849,73849,2320000,5000,5000,13604,400,3000,4839]) # Bravo (PCIe 3.0)

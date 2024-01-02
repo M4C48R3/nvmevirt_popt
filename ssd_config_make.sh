@@ -23,6 +23,8 @@ echo "// SPDX-License-Identifier: GPL-2.0-only
 #define CELL_MODE_TLC 3
 #define CELL_MODE_QLC 4
 
+#define READ_SLOWDOWN_BASE 1000 /* if READ_SLOWDOWN_WHILE_WRITE is defined, write and read can overlap. The read is slowed by a factor (READ_SLOWDOWN_WHILE_WRITE) / (READ_SLOWDOWN_BASE). */
+
 /* Must select one of INTEL_OPTANE, SAMSUNG_970PRO, or ZNS_PROTOTYPE
  * in Makefile */
 
@@ -66,9 +68,9 @@ enum {
 
 #define SSD_PARTITIONS (1)
 #define NAND_CHANNELS (8)
-#define LUNS_PER_NAND_CH (8)
+#define LUNS_PER_NAND_CH (4)
 #define PLNS_PER_LUN (1)
-#define FLASH_PAGE_SIZE KB(32)
+#define FLASH_PAGE_SIZE KB(64)
 #define ONESHOT_PAGE_SIZE (FLASH_PAGE_SIZE * 3)
 #define BLKS_PER_PLN (0)
 #define BLK_SIZE MB(6) /*BLKS_PER_PLN should not be 0 */
@@ -76,6 +78,7 @@ static_assert((ONESHOT_PAGE_SIZE % FLASH_PAGE_SIZE) == 0);
 
 #define MAX_CH_XFER_SIZE KB(16) /* to overlap with pcie transfer */
 #define WRITE_UNIT_SIZE (512)
+// #define READ_SLOWDOWN_WHILE_WRITE (2000)
 
 #define NAND_CHANNEL_BANDWIDTH (${1}ull) //MB/s
 #define PCIE_BANDWIDTH (${2}ull) //MB/s

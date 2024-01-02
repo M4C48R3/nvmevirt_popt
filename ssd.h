@@ -107,8 +107,8 @@ struct nand_lun {
 	struct nand_plane *pl;
 	int npls;
 	uint64_t next_lun_avail_time;
-	uint64_t next_write_finish_time;
-	float read_slowdown_factor; /* how many times a read is slowed while write is ongoing. 1 means read proceeds normally even when write is underway (unlikely), 10 means read proceeds at 1/10th the normal speed while write is underway. If reads are blocked while a write is underway in the LUN, set to a very high value */
+	uint64_t next_read_start_time;
+	
 	bool busy;
 	uint64_t gc_endtime;
 };
@@ -162,6 +162,7 @@ struct ssdparams {
 	int luns_per_ch; /* # of LUNs per channel */
 	int nchs; /* # of channels in the SSD */
 	int cell_mode;
+	int read_slowdown_factor; /* how many times a read is slowed while write is ongoing. 1 means read proceeds normally even when write is underway (unlikely), 10 means read proceeds at 1/10th the normal speed while write is underway. If reads are blocked while a write is underway in the LUN, set to a very high value */
 
 	/* Unit size of NVMe write command
        Transfer size should be multiple of it */
