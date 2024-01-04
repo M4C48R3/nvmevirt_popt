@@ -171,3 +171,7 @@ sphinx_*/
 
 # Local makefile
 Makefile.local
+
+nohup.out
+# temporary files of form (simple number).json
+results/[0-9]+.json
