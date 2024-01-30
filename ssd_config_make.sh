@@ -68,9 +68,9 @@ enum {
 
 #define SSD_PARTITIONS (1)
 #define NAND_CHANNELS (8)
-#define LUNS_PER_NAND_CH (8)
+#define LUNS_PER_NAND_CH (4)
 #define PLNS_PER_LUN (1)
-#define FLASH_PAGE_SIZE KB(32)
+#define FLASH_PAGE_SIZE KB(64)
 #define ONESHOT_PAGE_SIZE (FLASH_PAGE_SIZE * 3)
 #define BLKS_PER_PLN (0)
 #define BLK_SIZE MB(6) /*BLKS_PER_PLN should not be 0 */
